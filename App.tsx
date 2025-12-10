@@ -4,7 +4,6 @@ import { calculateMealNutrition, formatNumber } from './utils/nutritionLogic';
 import IngredientSelector from './components/IngredientSelector';
 import RecipeList from './components/RecipeList';
 import NutritionChart from './components/NutritionChart';
-import GeminiChef from './components/GeminiChef';
 import { Calculator, Flame, Droplets, Utensils } from 'lucide-react';
 
 const App: React.FC = () => {
@@ -89,9 +88,6 @@ const App: React.FC = () => {
                  <span className="ml-2 text-gray-600 font-medium">g</span>
                </div>
             </div>
-
-            {/* AI Analysis */}
-            <GeminiChef ingredients={components} nutrition={nutrition} />
 
           </div>
 
