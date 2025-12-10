@@ -1,0 +1,5 @@
+{
+  "name": "NutriCalc Pro",
+  "description": "A complex recipe calorie and macronutrient calculator. Build recipes from a database of ingredients, calculate nutrition after cooking weight loss, and get AI-powered insights.",
+  "requestFramePermissions": []
+}
